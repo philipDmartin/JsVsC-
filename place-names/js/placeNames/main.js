@@ -10,21 +10,21 @@ function main () {
     'Ryman Auditorium',
     'The Great Wall of China'
   ]
-}
 
-console.log('All Place Names')
+  console.log('All Place Names')
 
-for (let name of names) {
-  console.log('name')
-}
+  for (name of names) {
+    console.log(name)
+  }
 
-console.log()
+  console.log(' ')
 
-const theNames = names.filter(n => n.startsWith('The'))
+  const theNames = names.filter(n => n.startsWith('The'))
 
-console.log("'The' Place Names")
-for (let name of theNames) {
-  console.log('name')
+  console.log("'The' Place Names")
+  for (name of theNames) {
+    console.log(name)
+  }
 }
 
 main()
